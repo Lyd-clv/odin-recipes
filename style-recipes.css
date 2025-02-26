@@ -1,0 +1,31 @@
+body {
+    background-color: #f6f6ed;
+}
+
+h1 {
+    color: white;
+    background-color: olivedrab;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: inherit;  /* Link übernimmt die Textfarbe des umgebenden Elements */
+  text-decoration: none; /* Entfernt die Unterstreichung */
+}
+
+a:hover {
+    color: #ff6600; /* Ändert die Farbe beim Überfahren mit der Maus */
+    text-decoration: underline; /* Optional: Unterstreichung beim Hover */
+  }

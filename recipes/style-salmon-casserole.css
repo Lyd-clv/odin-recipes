@@ -1,0 +1,51 @@
+body {
+    background-color: #f6f6ed;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Increase specificity with "body" bc only #fancy is overwritten 
+by another rule*/
+body #fancy {  
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-style: italic;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3)
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', sans-serif;
+    text-transform: uppercase;
+}
+
+h2.wide {
+    letter-spacing: 3px;
+}
+
+ul {
+    line-height: 30px;
+    background-color: bisque;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+ol {
+    text-transform: capitalize;
+}
