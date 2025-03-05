@@ -49,3 +49,25 @@ ul {
 ol {
     text-transform: capitalize;
 }
+
+.boxmodel {
+    width: 650px;
+    margin: 15px 25px;
+} 
+
+.boxmodelstep {
+    display: inline-block;
+    padding: 20px;
+    margin: 15px 5px;
+    width: 590px;
+    border: 2px solid grey;
+} /* Use display: inline-block if div-Content should be on the same line with other elements */
+
+a {
+    display: block;
+    padding: 20px;
+    margin: 25px;
+    border: 5px dashed darksalmon;
+    width: 60px;
+    text-align: center;
+} /* Use display: block to force a new line: "a" under div-Content */

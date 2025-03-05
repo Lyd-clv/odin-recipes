@@ -1,5 +1,11 @@
+/* Comments are improvements from ChatGPT after I started practise */
+
 body {
     background-color: #f6f6ed;
+    padding: 15px;
+    /* margin: 20px; Einheitlichere Abstände für den body: margin und padding im body kann etwas inkonsistent sein, um
+    den Abstand rund um den Inhalt zu halten. */
+    border-style: groove;
 }
 
 h1 {
@@ -10,13 +16,20 @@ h1 {
     font-family: Georgia, 'Times New Roman', sans-serif;
     text-align: center;
     text-transform: uppercase;
+    padding: 10px;
+    /* display: block; Vermeide display: block; im <h1>, von Natur aus ein Block-Element */
 }
+
 
 ul {
     font-family: Georgia, 'Times New Roman', sans-serif;
     font-weight: bold;
     font-size: 120%;
+    line-height: 40px;
+    text-align: center;
+    list-style-position: inside;
 }
+
 
 a:link,
 a:visited,
@@ -29,3 +42,10 @@ a:hover {
     color: #ff6600; /* Ändert die Farbe beim Überfahren mit der Maus */
     text-decoration: underline; /* Optional: Unterstreichung beim Hover */
   }
+
+.boxmodel {
+border: 5px solid grey;
+display: inline-block;
+padding: 50px;
+margin: 5px 80px 5px 80px;    
+}
