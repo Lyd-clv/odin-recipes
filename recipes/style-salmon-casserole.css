@@ -26,6 +26,16 @@ img {
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3)
 }
 
+.pic {
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.pic:hover {
+    /* opacity: 0.5; -> Bild wird durchsichtig, wenn du mit der Maus darüberfährst */
+    transform: scale(1.1); /* Bild wird beim Hover leicht größer */
+  }
+
 h2 {
     font-size: 20px;
     font-weight: bold;

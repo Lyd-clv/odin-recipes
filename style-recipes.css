@@ -20,7 +20,6 @@ h1 {
     /* display: block; Vermeide display: block; im <h1>, von Natur aus ein Block-Element */
 }
 
-
 ul {
     font-family: Georgia, 'Times New Roman', sans-serif;
     font-weight: bold;
